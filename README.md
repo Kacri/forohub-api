@@ -15,10 +15,23 @@ ForoHub API es una aplicación RESTFULL desarrollada para gestionar mensajes de 
 - **Swagger/OpenAPI**
 - **JSON Web Tokens (JWT)**
 - **Hibernate/JPA**
-- **H2/SQL Server** (puedes especificar el motor de base de datos que uses)
+- **MYSQL SERVER**
 
 ## 📋 Requisitos Previos
 
 - Java 17+
 - Maven
 - Base de datos configurada (H2, SQL Server, u otra)
+
+## Puedes acceder a la documentacion Swagger en:
+- **http://localhost:8080/swagger-ui/index.html**
+
+## Operaciones CRUD PRINCIPALES
+
+Método	Endpoint	Descripción	Seguridad
+POST	/auth/login	Inicio de sesión con JWT	❌
+GET	/api/topicos	Obtener todos los tópicos	✔️
+GET	/api/topicos/{id}	Obtener un tópico por ID	✔️
+POST	/api/topicos	Crear un nuevo tópico	✔️
+PUT	/api/topicos/{id}	Actualizar un tópico existente	✔️
+DELETE	/api/topicos/{id}	Eliminar un tópico	✔️
