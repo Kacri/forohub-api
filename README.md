@@ -28,10 +28,10 @@ ForoHub API es una aplicación RESTFULL desarrollada para gestionar mensajes de 
 
 ## Operaciones CRUD PRINCIPALES
 
-Método	Endpoint	Descripción	Seguridad
-POST	/auth/login	Inicio de sesión con JWT	❌
-GET	/api/topicos	Obtener todos los tópicos	✔️
-GET	/api/topicos/{id}	Obtener un tópico por ID	✔️
-POST	/api/topicos	Crear un nuevo tópico	✔️
-PUT	/api/topicos/{id}	Actualizar un tópico existente	✔️
-DELETE	/api/topicos/{id}	Eliminar un tópico	✔️
+- Método	Endpoint	Descripción	Seguridad
+- POST	/auth/login	Inicio de sesión con JWT	❌
+- GET	/api/topicos	Obtener todos los tópicos	✔️
+- GET	/api/topicos/{id}	Obtener un tópico por ID	✔️
+- POST	/api/topicos	Crear un nuevo tópico	✔️
+- PUT	/api/topicos/{id}	Actualizar un tópico existente	✔️
+- DELETE	/api/topicos/{id}	Eliminar un tópico	✔️
